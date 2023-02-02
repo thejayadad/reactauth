@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 const mongoose = require("mongoose");
 mongoose.set("debug", true);
 mongoose.set("strictQuery", false);
-require('dotenv').config();
+
 
 mongoose.Promise = Promise;
 
